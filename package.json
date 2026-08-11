@@ -1,0 +1,14 @@
+{
+  "name": "molecular-planet",
+  "version": "1.0.0",
+  "description": "Hand-gesture-controlled 3D molecular planet — Three.js + MediaPipe HandLandmarker, no build step.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "three": "^0.185.1"
+  }
+}
